@@ -11,6 +11,7 @@ It allows you to read status and remaining time messages from a Siemens washing 
 - **ESP12F**: The microcontroller reads the D-Bus and communicates via MQTT.
 - **Step-Down Converter (MP1584EN)**: Since the D-Bus operates at 9V and the ESP12F only supports 3.3V, an MP1584EN step-down converter is used to safely reduce the voltage to 3.3V.
 - **Direct D-Bus Connection**: The connection is made directly, without additional adapters.
+- **3D Printed Case**: The `3d-print` folder contains STL files for a custom enclosure designed to house the ESP12F mounted directly on top of the MP1584EN step-down converter.
 
 ## Features
 
